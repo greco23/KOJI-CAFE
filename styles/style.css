@@ -1,0 +1,129 @@
+
+*{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+.colorUno{
+    color: #DF769A;
+}
+
+.colorDos{
+    color: #9E546E;
+}
+
+.colorTres{
+    color: #613343;
+}
+
+.colorTexto{
+    color: rgb(31, 31, 31);
+}
+
+.blanco{
+    color: white;
+}
+
+.colorBotonUno{
+    background-color: white;
+    color: #9E546E;
+}
+
+.colorBotonDos{
+    background-color: #613343;
+    color: white;
+}
+
+.fondoUno{
+    background-color: white;
+}
+
+
+    background-color: #DF769A;
+}
+
+.fondoDos{
+    background-color: #fde5ce;
+}
+
+.fondoTres{
+    background-color: #613343;
+}
+
+.fontUno{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fontDos{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/* header */
+
+.logoNav{
+    height: 100px;
+    width: 100px;
+}
+
+.textoSlideUno{
+    font-weight: 800;
+}
+
+.textoSlideDos{
+    font-weight: 700;
+}
+
+/*header{
+    display: flex;
+    justify-content: space-around;
+    
+    h1{
+        color: white;
+    }
+}
+
+nav{
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+*/
+
+
+
+/*                        main                       */
+
+.carousel-item{
+    max-height: 700px;                      /*adaptar*/
+    
+}
+
+.bi{
+    font-size: 32px;
+    color: white;
+}
+
+
+
+/*                       footer                      */
+.footer{
+    background-color: rgb(31, 31, 31);
+}
