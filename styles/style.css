@@ -42,16 +42,16 @@
     background-color: white;
 }
 
-
-    background-color: #DF769A;
-}
-
 .fondoDos{
     background-color: #fde5ce;
 }
 
 .fondoTres{
     background-color: #613343;
+}
+
+.fondoCuatro{
+    background-color: #DF769A;
 }
 
 .fontUno{
@@ -69,6 +69,7 @@
 
 
 /* header */
+
 
 .logoNav{
     height: 100px;
@@ -126,4 +127,9 @@ nav{
 /*                       footer                      */
 .footer{
     background-color: rgb(31, 31, 31);
+}
+
+.logoFooter{
+    height: auto;
+    width: 100px;
 }
