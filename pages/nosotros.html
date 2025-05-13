@@ -47,41 +47,52 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="container">
-                <h2>NOSOTROS</h2>
-                <div class="card mb-3">
+ <section>
+            <div class="container py-4">
+                <h2 class="text-center mb-4">NOSOTROS</h2>
+                
+                <!-- Primera tarjeta -->
+                <div class="card mb-4 shadow-sm">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-start" alt="fotoTienda">
+                        <div class="col-12 col-md-4">
+                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="fotoTienda">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-12 col-md-8">
                             <div class="card-body">
-                                <h3 class="card-title">La Cafeteria</h3>
+                                <h3 class="card-title">La Cafetería</h3>
                                 <p class="card-text">En Koji Café, somos apasionados del café y de la comunidad. Nuestra historia comenzó con un sueño de crear un espacio acogedor donde las personas pudieran reunirse para disfrutar de un café de alta calidad y compartir momentos especiales. Desde nuestro inicio, hemos estado comprometidos con la búsqueda de la perfección en cada taza de café que servimos. Nuestro equipo de expertos cafeteros trabaja arduamente para seleccionar los mejores granos de café de todo el mundo y prepararlos con dedicación y pasión. Nuestra misión es proporcionar una experiencia de café excepcional que te haga sentir como en casa. Queremos que cada visita a Koji Café sea una experiencia memorable y que te sientas conectado con nuestra comunidad de amantes del café.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3">
+                
+                <!-- Segunda tarjeta - Invertida en móviles -->
+                <div class="card mb-4 shadow-sm">
                     <div class="row g-0">
-                        <div class="col-md-8">
+                        <!-- Imagen visible solo en móviles -->
+                        <div class="col-12 d-md-none">
+                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-top" alt="fotoStaff">
+                        </div>
+                        <div class="col-12 col-md-8">
                             <div class="card-body">
                                 <h3 class="card-title">Nuestro Staff</h3>
                                 <p class="card-text">Nuestro equipo es la esencia de Koji Café. Estamos orgullosos de tener un equipo de profesionales apasionados y dedicados que comparten nuestra visión de proporcionar una experiencia de café excepcional. Desde nuestros baristas expertos hasta nuestros amables camareros, cada miembro de nuestro equipo está comprometido con la excelencia y la atención al detalle. Nuestro equipo está siempre dispuesto a ayudar y a hacer que tu experiencia en Koji Café sea inolvidable. Nuestros baristas están capacitados para preparar cada taza de café con perfección y nuestros camareros están siempre listos para atenderte con una sonrisa. Queremos que te sientas como en casa cuando visites Koji Café, y nuestro equipo está aquí para asegurarse de que eso suceda.</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-end" alt="fotoStaff">
+                        <!-- Imagen visible solo en pantallas medianas o mayores -->
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-end h-100 object-fit-cover" alt="fotoStaff">
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3">
+                
+                <!-- Tercera tarjeta -->
+                <div class="card mb-4 shadow-sm">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-start" alt="imgCafe">
+                        <div class="col-12 col-md-4">
+                            <img src="../assets/colorsolid.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="imgCafe">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-12 col-md-8">
                             <div class="card-body">
                                 <h3 class="card-title">Nuestro Café</h3>
                                 <p class="card-text">En Koji Café, estamos obsesionados con la calidad del café. Nuestro café es seleccionado cuidadosamente de los mejores productores de café de todo el mundo. Nuestros expertos cafeteros trabajan arduamente para preparar cada taza de café con dedicación y pasión. Ofrecemos una variedad de opciones de café, desde clásicos como el espresso y el cappuccino hasta opciones más exclusivas como el café de especialidad y el café filtrado. Cada taza de café que servimos es una reflexión de nuestra pasión por el café y nuestra dedicación a la excelencia. Nuestro café es más que solo una bebida, es una experiencia que te hará sentir vivo y conectado con el mundo que te rodea.</p>
@@ -90,6 +101,7 @@
                     </div>
                 </div>
             </div>
+        </section>
     </main>
     <footer class="footer py-4">
         <div class="container">
