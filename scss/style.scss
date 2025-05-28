@@ -1,0 +1,78 @@
+@use 'variables' as*;
+@use 'reset';
+@use 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+%color-dos {
+    color: $color-dos;
+}
+
+%blanco{
+    color: $color-blanco;
+}
+
+
+.bi{
+    font-size: 30px;
+    color: white;
+}
+
+.carousel-item {
+    max-height: 700px;
+}
+
+.colorUno{
+    color: $color-uno;
+}
+
+.colorDos{
+    color: $color-dos;
+}
+
+.colorTres{
+    color: $color-tres;
+}
+
+.colorTexto{
+    color: $color-gris;
+}
+
+.blanco{
+    color: $color-blanco;
+}
+
+
+.colorBotonUno{
+    background-color: $color-blanco;
+    @extend  %color-dos
+}
+
+.colorBotonDos{
+    background-color: $color-tres;
+    @extend %blanco
+}
+
+.fondoUno{
+    background-color: $color-blanco;
+}
+
+.fondoDos{
+    background-color: #fde5ce;
+}
+
+.fondoTres{
+    background-color: $color-tres;
+}
+
+.fondoCuatro{
+    background-color: $color-uno;
+}
+
+.fontUno{
+    font-weight: 700;
+}
+
+.fontDos{
+    font-weight: 500;
+}

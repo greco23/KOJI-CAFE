@@ -1,0 +1,9 @@
+@use 'variables' as*;
+
+footer{
+    background-color: $color-gris;
+    img{
+        height: auto;
+        width: 100px;
+    }
+}
